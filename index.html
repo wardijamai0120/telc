@@ -115,13 +115,72 @@ body {
   transform: translateY(-4px) scale(1.03);
   box-shadow: 0 8px 22px rgba(0,0,0,0.35);
 }
+
+  /* ===== TOP FIXED BANNER (STATIC) ===== */
+.top-banner {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 44px;
+  background: linear-gradient(135deg, #0088cc, #1c9dd9);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  font-size: 14px;
+  direction: rtl;
+}
+
+/* النص */
+.banner-text {
+  font-weight: bold;
+  opacity: 0.95;
+}
+
+/* زر تيليغرام */
+.banner-btn {
+  position: absolute;
+  left: 15px;
+  background: #ffffff;
+  color: #0088cc;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 10px rgba(0
+  
 </style>
 </head>
 
 <body>
 
+<div class="top-banner">
+  <div class="banner-track">
+    إلى بغيتو يكون الهوغن بالصوت ديالو نفس لي فالامتحان أو لا ؟ |
+    لي موافق يقولها فتلغرام  |
+    غي شي دعوة معاكوم
+  </div>
+
+</div>
+  
 <a href="index.html" class="logout-button">Abmelden</a>
 
+<a href="https://t.me/+Ol_rmVMqm-xmMzNk" target="_blank" class="social-btn telegram">
+  <span style="color:#fff;">
+    <!-- Telegram Logo -->
+    <svg width="18" height="18" viewBox="0 0 240 240" fill="white">
+      <path d="M179.9 73.7L153 172.6c-2 7.1-7.3 8.9-14.8 5.6l-41-30.2-19.8 19c-2.2 2.2-4 4-8.2 4l2.9-41.4 75.4-68c3.3-2.9-.7-4.5-5.1-1.6l-93.2 58.7-40.1-12.5c-8.7-2.7-8.9-8.7 1.8-12.9l156.9-60.5c7.3-2.7 13.6 1.8 11.2 13.5z"/>
+    </svg>
+  </span>
+  Telegram
+</a>
+  
 <div class="header">
   <h1>Willkommen zu unserem Test</h1>
   <p>Wir freuen uns, Sie hier zu haben.</p>
